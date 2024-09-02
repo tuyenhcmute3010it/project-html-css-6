@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/grid.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- favicon  -->
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/" />
     <link
@@ -89,7 +90,7 @@
     />
     <!--  -->
   </head>
-  <body style="height: 10000px">
+  <body >
     <header class="header">
       <div class="row">
         <a href="#!" class="logo">
@@ -100,14 +101,14 @@
               class="logo-img"
             />
           </figure>
-          <span class="logo__sym">hi@arif.interactive</span>
+          <span class="logo__sym hide-on-mobile">hi@arif.interactive</span>
         </a>
         <img
           src="./assets/img/decord-01-smile.png"
           alt="hi@arif.interactive"
           class="logo-decord"
         />
-        <ul class="navbar__list">
+        <ul class="navbar__list hide-on-mobile ">
           <li class="nav-item">
             <a href="#!" class="nav__link">Projects</a>
           </li>
@@ -125,6 +126,7 @@
     </header>
     <main>
       <div class="container">
+        <!-- hero -->
         <section class="hero">
           <figure class="hero-page__decord-wrap">
             <img
@@ -133,15 +135,15 @@
               class="hero-page__decord"
             />
           </figure>
-          <figure class="hero-page__decord-wrap">
+          <figure class="hero-page__decord-wrap hide-on-mobile">
             <img
               src="./assets/icon/page-decord-sm.svg"
               alt=""
               class="hero-page__decord"
             />
           </figure>
-          <div class="row">
-            <div class="col-lg-5">
+          <div class="row row-cols-1">
+            <div class="col-lg-5 col-md-12 col-sm-12">
               <div class="hero__media">
                 <img
                   src="./assets/img/hero-human-01.png"
@@ -150,7 +152,7 @@
                 />
               </div>
             </div>
-            <div class="col-lg-5 offset-lg-2">
+            <div class="col-lg-5 offset-lg-2 col-md-12 col-sm-12">
               <div class="hero__content">
                 <h1 class="hero__heading">An Interactive Designer</h1>
                 <p class="section-desc hero__desc">
@@ -159,7 +161,7 @@
                 </p>
                 <div class="hero__cta-group">
                   <button class="section-btn">Book a Call</button>
-                  <a href="" class="hero__cta">My Works</a>
+                  <a href="#!" class="hero__cta">My Works</a>
                 </div>
                 <div class="hero__follow-group">
                   <span class="hero__follow">Follow me on:</span>
@@ -191,7 +193,649 @@
             </div>
           </div>
         </section>
+        <!-- company -->
+        <section class="company">
+          <div class="row row-cols-lg-2 row-cols-md-1">
+            <div class="col-lg-4 col-md-10 col-sm-12"> 
+              <div class="company-content">
+                <span class="company__heading">Meet my recent clients</span>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-1 company-phone">
+                <div class="row row-cols-lg-4 row-lg-12 company-phone__list">
+                   <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-01.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-01.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                   </div>
+                   <div class="col">
+                      <article class="company-item" style="height: 35px;">
+                        <img
+                          src="./assets/img/logo-company-02.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-02.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                   </div>
+                   <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-03.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-03.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                   </div>
+                  <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-04.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-04.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                  </div>
+                 <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-05.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-05.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                 </div>
+              <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-06.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-06.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+              </div>
+                 <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-07.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-07.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                 </div>
+                    <div class="col">
+                      <article class="company-item">
+                        <img
+                          src="./assets/img/logo-company-08.svg"
+                          alt=""
+                          class="company-item__logo"
+                        />
+                        <img
+                          src="./assets/img/logo-company-name-08.svg"
+                          alt=""
+                          class="company-item__name"
+                        />
+                      </article>
+                    </div>
+                </div>
+        
+          </div>
+        </section>
+        <!-- service -->
+        <section class="service">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="section-heading service-heading">Specialities</h2>
+              <p class="section-desc service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1">
+            <div class="col">
+              <article class="service-item">
+                <figure class="service-item__img-wrap">
+                  <img
+                    src="./assets/img/service-01.svg"
+                    alt=""
+                    class="service-item__img"
+                  />
+                </figure>
+                <h3 class="service-title">Product design</h3>
+                <p class="section-desc service-more">
+                  Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                  solor ut elementum turpis.
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article class="service-item">
+                <figure class="service-item__img-wrap">
+                  <img
+                    src="./assets/img/service-02.svg"
+                    alt=""
+                    class="service-item__img"
+                  />
+                </figure>
+                <h3 class="service-title">UI/UX Design</h3>
+                <p class="section-desc service-more">
+                  Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                  solor ut elementum turpis.
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article class="service-item">
+                <figure class="service-item__img-wrap">
+                  <img
+                    src="./assets/img/service-03.svg"
+                    alt=""
+                    class="service-item__img"
+                  />
+                </figure>
+                <h3 class="service-title">Interactive design</h3>
+                <p class="section-desc service-more">
+                  Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                  solor ut elementum turpis.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
       </div>
+      <!-- container -->
+      <section class="work">
+        <div class="container">
+          <div class="row-12 row-lg-12 row-md-12">
+              <div class="work-content">
+                  <h2 class="section-heading work-heading">
+                    Take a look at my recent projects
+                  </h2>
+                <p class="section-desc work-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  urna, non nisl tincidunt ut elementum turpis.
+                </p>
+              </div>
+          </div>
+          <!-- row -2 -->
+         <div class="work__list">
+            <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1">
+              <div class="col">
+              <article class="work-item">
+               <div class="row row-cols-2">
+                <div class="col col-md-6 col-sm-6">
+                          <h3 class="work-title">Wally Website</h3>
+                          <p class="work-item__desc">
+                            Lorem ipsum dolor amet, consectetur adipiscing st elit.
+                          </p>
+                          <a href="#!" class="work-item__link">Case Study</a>
+                    </div>
+                    <div class="col-sm-5 offset-lg-0 col-md-5 offset-md-1 offset-sm-1 ">
+
+                          <img
+                            src="./assets/img/work-01.png"
+                            alt=""
+                            class="work-item__img"
+                          />
+                       </div>
+                    </div>
+                </article>
+  
+                  </div>
+         
+        
+              <!-- 2 -->
+              <div class="col">
+                <article class="work-item">
+                 <div class="row row-cols-2">
+                      <div class="col col-md-6 col-sm-6">
+                            <h3 class="work-title">Banking App</h3>
+                            <p class="work-item__desc">
+                              Lorem ipsum dolor amet, consectetur adipiscing st elit.
+                            </p>
+                            <a href="#!" class="work-item__link">Case Study</a>
+                      </div>
+                         <div class="col-sm-5 offset-lg-0 col-md-5 offset-md-1 offset-sm-1 ">
+                            <img
+                              src="./assets/img/work-02.png"
+                              alt=""
+                              class="work-item__img"
+                            />
+                         </div>
+                      </div>
+                  </article>
+    
+                    </div>
+              <!-- 3 -->
+              <div class="col">
+                <article class="work-item">
+                 <div class="row row-cols-2">
+                  <div class="col col-md-6 col-sm-6">
+
+                            <h3 class="work-title">Web App</h3>
+                            <p class="work-item__desc">
+                              Lorem ipsum dolor amet, consectetur adipiscing st elit.
+                            </p>
+                            <a href="#!" class="work-item__link">Case Study</a>
+                      </div>
+                      <div class="col-sm-5 offset-lg-0 col-md-5 offset-md-1 offset-sm-1 ">
+
+                            <img
+                              src="./assets/img/work-03.png"
+                              alt=""
+                              class="work-item__img"
+                            />
+                         </div>
+                      </div>
+                  </article>
+    
+                    </div>
+              <!--4 -->
+              <div class="col">
+                <article class="work-item">
+                 <div class="row row-cols-2">
+                  <div class="col col-md-6 col-sm-6">
+
+                            <h3 class="work-title">Oculus Website</h3>
+                            <p class="work-item__desc">
+                              Lorem ipsum dolor amet, consectetur adipiscing st elit.
+                            </p>
+                            <a href="#!" class="work-item__link">Case Study</a>
+                      </div>
+                      <div class="col-sm-5 offset-lg-0 col-md-5 offset-md-1 offset-sm-1 ">
+
+                            <img
+                              src="./assets/img/work-04.png"
+                              alt=""
+                              class="work-item__img"
+                            />
+                         </div>
+                      </div>
+                  </article>
+    
+                    </div>
+            </div>
+         </div>
+
+            <!-- row -2  -->
+          <button class="section-btn work-btn">All Projects</button>
+        </div>
+      </section>
+      <!-- container  -->
+      <div class="container">
+        <!-- about -->
+        <div class="about">
+          <div class="row">
+            <div class="about-top">
+              <div class="about-pre__wrap">
+                <span class="about-pre">Hey,,,,It’s Arif</span>
+                <img
+                  src="./assets/icon/about-pre.svg"
+                  alt=""
+                  class="about-pre__icon"
+                />
+              </div>
+
+              <h2 class="section-heading about-heading">
+                Interactive Designer
+              </h2>
+              <p class="section-desc about-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+            </div>
+          </div>
+          <div class="about-stats-wrap">
+            <di v class="row row-cols-3 about-stats__mobile">
+              <div class="col">
+                <div class="about-stats">
+                  <strong class="about-number">08+</strong>
+                  <span class="about-stats-desc">Years Experience</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="about-stats">
+                  <strong class="about-number">21+</strong>
+                  <span class="about-stats-desc">Features & Awards</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="about-stats">
+                  <strong class="about-number">97%</strong>
+                  <span class="about-stats-desc">Clients Rating</span>
+                </div>
+              </div>
+            </di>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <video
+                src="./assets/video/🐻 Jim Yosef & Anna Yvette - Linked (Lyrics Video).mp4"
+                controls
+                autoplay
+                muted
+                class="about-video"
+                width="100%"
+              ></video>
+            </div>
+          </div>
+        </div>
+     </div>
+        <!-- testimonial -->
+        <div class="testimonial">
+      <div class="container">
+          <div class="row">
+          <div class="testimonial__inner">
+              <h2 class="section-heading testimonial-heading">What people says</h2>
+              <p class="section-desc testimonial-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+                non nisl tincidunt ut elementum turpis.
+              </p>
+              <blockquote class="testimonial-quote"
+                >“Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa.”</blockquote
+              >
+              <div class="row testimonial-avatar">
+                <div class="testimonial-img-wrap">
+                  <img
+                    src="./assets/img/testimonial-img.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                </div>
+                <span class="testimonial-name">Joe Elia</span>
+              </div>
+              <p class="testimonial-note">User Interface Design at PCL Lab</p>
+              <row class="page-control__wrap">
+                <div class="page-control"></div>
+                <div class="page-control"></div>
+               <div class="page-control--active"> 
+                <div class="page-control"></div>
+              </div>
+                <div class="page-control"></div>
+                <div class="page-control"></div>
+              </row>
+          </div>
+          </div>
+        </div>
+        <figure class="testimonial-page__decord-wrap">
+          <img
+            src="./assets/icon/page-decord-sm.svg"
+            alt=""
+            class="testimonial-page__decord"
+          />
+        </figure>
+        <figure class="testimonial-page__decord-wrap">
+          <img
+            src="./assets/icon/page-decord-sm.svg"
+            alt=""
+            class="testimonial-page__decord"
+          />
+        </figure>
+        </div>
+        <div class="container">
+          <!-- faq -->
+           <div class="faq">
+         <div class="row">
+           <div class="col-6">
+                  <h2 class="section-heading faq-heading">A few questions 
+                    clients normally ask me</h2>
+           </div>
+         </div>
+
+           <div class="faq-list">
+              <div class="row">
+                <div class="col-10">
+                    <div class="faq-item">
+                      <input class="faq-input" type="checkbox" name="open-01" id="open-01"
+                      hidden>
+                      <label for="open-01" class="faq-btn">
+                       <button>
+                            <span class="faq-btn__open">+</span>
+                            <span class="faq-btn__close">-</span>
+                         </button>
+                      </label>
+                      <div class="faq__content">
+                        <h3 class="faq-title">What is your  hourly rate?</h3>
+                        <p class="faq-item__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                      </div>
+                    <div class="faq-separate"></div>
+
+                    </div>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10">
+                    <div class="faq-item">
+                      <input class="faq-input" type="checkbox" name="open-02" id="open-02"
+                      hidden>
+                      <label for="open-02" class="faq-btn">
+                       <button>
+                            <span class="faq-btn__open">+</span>
+                            <span class="faq-btn__close">-</span>
+                         </button>
+                      </label>
+                      <div class="faq__content">
+                        <h3 class="faq-title">What type of projects do you take on?</h3>
+                        <p class="faq-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quas?</p>
+                      </div>
+                      <div class="faq-separate"></div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10">
+                    <div class="faq-item">
+                      <input class="faq-input" type="checkbox" name="open-03" id="open-03"
+                      hidden>
+                      <label for="open-03" class="faq-btn">
+                       <button>
+                            <span class="faq-btn__open">+</span>
+                            <span class="faq-btn__close">-</span>
+                         </button>
+                      </label>
+                      <div class="faq__content">
+                        <h3 class="faq-title">How do you charge for projects ?</h3>
+                        <p class="faq-item__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus!</p>
+                      </div>
+                      <div class="faq-separate"></div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10">
+                    <div class="faq-item">
+                      <input class="faq-input" type="checkbox" name="open-04" id="open-04"
+                      hidden>
+                      <label for="open-04" class="faq-btn">
+                       <button>
+                            <span class="faq-btn__open">+</span>
+                            <span class="faq-btn__close">-</span>
+                         </button>
+                      </label>
+                      <div class="faq__content">
+                        <h3 class="faq-title">What time-zone do you work in?</h3>
+                        <p class="faq-item__desc">Lorem ipsum dolor sit amet.</p>
+                      </div>
+                      <div class="faq-separate"></div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10">
+                    <div class="faq-item">
+                      <input class="faq-input" type="checkbox" name="open-05" id="open-05"
+                      hidden>
+                      <label for="open-05" class="faq-btn">
+                       <button>
+                            <span class="faq-btn__open">+</span>
+                            <span class="faq-btn__close">-</span>
+                         </button>
+                      </label>
+                      <div class="faq__content">
+                        <h3 class="faq-title">How often can we communicate?</h3>
+                        <p class="faq-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, cum repellendus!</p>
+                      </div>
+                      <div class="faq-separate"></div>
+                    </div>
+                </div>
+              </div>
+           </div>
+            </div>
+            <!-- gallery -->
+            <div class="gallery">
+              <div class="row">
+                <div class="col-6 offset-3">
+              <div class="gallery-content">
+                    <h2 class="section-heading gallery__heading">My atmosphere</h2>
+                    <p class="section-desc gallery__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                    <a href="#!" class="gallery__link">@interaction_arif</a>
+              </div>
+                </div>
+              </div>
+                <div class="row row-cols-3 gallery__list">
+                  <div class="col"><img src="./assets/img/gallery-01.jpg" alt="" class="gallery__img"></div>
+                  <div class="col"><img src="./assets/img/gallery-02.jpg" alt="" class="gallery__img"></div>
+                  <div class="col"><img src="./assets/img/gallery-03.jpg" alt="" class="gallery__img"></div>
+                </div>
+                <row class="page-control__wrap hide-on-laptop">
+                  <div class="page-control"></div>
+                  <div class="page-control"></div>
+                 <div class="page-control--active"> 
+                  <div class="page-control"></div>
+                </div>
+                  <div class="page-control"></div>
+                  <div class="page-control"></div>
+                </row>
+            </div> 
+        </div>
+            <!-- CTA -->
+             <div class="cta">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6 offset-3">
+                    <img src="./assets/img/cta-img.svg" alt="" class="cta__icon">
+                    <h2 class="section-heading cta__heading">Got a project? Let's talk</h2>
+                    <p class="section-desc cta__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error inventore eveniet saepe? </p>
+                    <button class="section-btn cta__btn">Book a Call</button>
+                  </div>
+                </div>
+                <figure class="cta-page__decord-wrap">
+                  <img
+                    src="./assets/icon/page-decord-lg.svg"
+                    alt=""
+                    class="cta-page__decord"
+                  />
+                </figure>
+                <figure class="cta-page__decord-wrap">
+                  <img
+                    src="./assets/icon/page-decord-md.svg"
+                    alt=""
+                    class="cta-page__decord"
+                  />
+                </figure>
+                <figure class="cta-page__decord-wrap">
+                  <img
+                    src="./assets/icon/page-decord-sm.svg"
+                    alt=""
+                    class="cta-page__decord"
+                  />
+                </figure>
+              </div>
+          
+            </div>
+        </div>
+        </div>
     </main>
+ <footer class="footer">
+  <div class="footer-top">
+  <div class="row">
+      <a href="#!" class="logo">
+        <figure class="logo__wrap-img">
+          <img
+            src="./assets/img/logo.svg"
+            alt="hi@arif.interactive"
+            class="logo-img"
+          />
+        </figure>
+        <span class="logo__sym">hi@arif.interactive</span>
+      </a>
+      <img
+        src="./assets/img/decord-01-smile.png"
+        alt="hi@arif.interactive"
+        class="logo-decord"
+      />
+      <ul class="navbar__list navbar__list--bottom">
+        <li class="nav-item">
+          <a href="#!" class="nav__link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav__link">Journey</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav__link">Service</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav__link">Contact</a>
+        </li>
+      </ul> 
+  </div>
+</div>
+  <div class="container">
+    <div class="row row-cols-lg-2 row-cols-md-1">
+      <div class="col-lg-4 col-md-12 col-sm-12">  
+        <a href="#!" class="footer-c">©interactiveArif 2021. All rights reserved.</a>
+      </div>
+       <div class="col-lg-4 offset-lg-4 col-md-12 col-sm-12 ">
+        <div class="footer__term">
+          <a href="#!"><pre class="footer-policy">Privacy Policy     |     </pre></a>
+          <a href="#!" class="footer-term__condition">Terms of Conditions</a>
+        </div>
+      </div>
+  </div>
+  </div>
+
+ </footer>
   </body>
 </html>

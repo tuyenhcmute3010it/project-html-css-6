@@ -1,0 +1,263 @@
+/* pc */
+@media screen and (min-width: 992px) {
+  .hide-on-laptop {
+    display: none;
+  }
+}
+/* Tablet and mobile */
+@media screen and (max-width: 991.98px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .hero-page__decord-wrap:nth-of-type(2) {
+    display: none;
+  }
+  .header .row {
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #d6d3e2;
+  }
+  .logo-decord {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .hero .row {
+    flex-direction: column-reverse;
+  }
+
+  .hero__follow-group {
+    margin-top: 30px;
+  }
+  .hero__content {
+    width: 100%;
+  }
+  .hero__img {
+    width: 100%;
+  }
+  .company .row {
+    flex-direction: column;
+  }
+  .footer-top .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .logo-decord {
+    margin: 0 auto;
+    order: 1;
+  }
+  .footer .logo {
+    order: 3;
+    margin-top: 64px;
+  }
+  .footer .navbar__list {
+    order: 2;
+    margin: 20px auto 0;
+  }
+  .footer-top {
+    width: 100%;
+  }
+  .cta {
+    width: 100%;
+  }
+  .header .row {
+    width: 100%;
+  }
+  .work-item {
+    width: 100%;
+  }
+  .work-content {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .work-heading {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  .work-item {
+    width: 100%;
+  }
+  .footer__term {
+    text-align: center;
+  }
+  .footer-c {
+    text-align: center;
+    display: block;
+  }
+  .work-item {
+    margin-top: 30px;
+    width: 350px;
+    height: 170px;
+    margin: 30px auto 0;
+    padding: 20px 15px;
+  }
+  .service-item {
+    margin-top: 30px;
+    padding: 20px 15px;
+  }
+  .work-item__img {
+    width: 122px;
+    height: 93px;
+  }
+  .work-title {
+    font-size: 2.4rem;
+    width: 150px;
+    white-space: nowrap;
+  }
+  .work-item__desc {
+    width: 176px;
+    font-size: 1.4rem;
+  }
+  .work-item__link {
+    font-size: 1.6rem;
+  }
+  .company-item {
+    margin-top: 20px;
+  }
+  .hero-page__decord-wrap:first-of-type .hero-page__decord {
+    width: 100%;
+    height: 100%;
+  }
+  .hero__img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .hero__media {
+    margin-top: 30px;
+  }
+  .service-desc {
+    width: 80%;
+  }
+  .navbar__list {
+    width: 100%;
+    gap: 10px;
+  }
+  .gallery__heading {
+    font-size: 3.6rem;
+    white-space: nowrap;
+  }
+  .gallery__link {
+    font-size: 2rem;
+  }
+  .gallery__desc {
+    font-size: 1.6rem;
+  }
+  .gallery-content {
+  }
+  .cta__heading {
+    font-size: 3.6rem;
+  }
+  .nav__link {
+    padding: 10px;
+  }
+  .navbar__list--bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-heading {
+    text-align: center;
+  }
+  .about-number {
+    font-size: 3rem;
+  }
+  .about-stats-desc {
+    font-size: 1.6rem;
+  }
+  .about-stats__mobile {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+  }
+  .testimonial {
+    margin-top: -50px;
+  }
+  .testimonial-heading {
+    font-size: 3.6rem;
+    white-space: nowrap;
+  }
+  .testimonial-desc {
+    font-size: 16px;
+    width: 80%;
+  }
+  .testimonial__inner {
+    width: 90%;
+    margin-top: 100px;
+  }
+  .faq-heading {
+    font-size: 3.6rem;
+    width: 316px;
+  }
+  .faq-title {
+    font-size: 2.4rem;
+  }
+  .faq-btn {
+    width: 33px;
+    height: 33px;
+  }
+  .faq-input:checked ~ .faq__content .faq-title {
+    font-size: 2.4rem;
+  }
+  .faq__content {
+    width: 80%;
+  }
+  .faq-input:checked ~ .faq__content .faq-item__desc {
+    font-size: 1.6rem;
+    width: 230px;
+  }
+  .faq-input:checked ~ .faq-btn {
+    width: 36px;
+    height: 36px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .work-item {
+    margin-top: 30px;
+    width: 350px;
+    height: 170px;
+    margin: 30px auto 0;
+  }
+  .hide-on-laptop {
+    display: none;
+  }
+}
+/* mobile */
+@media screen and (max-width: 767.98px) {
+  .work-item {
+    margin-top: 30px;
+    width: 350px;
+    height: 170px;
+    margin: 30px auto 0;
+  }
+  .company-phone {
+    margin: 0 auto;
+  }
+  .company-phone .company-phone__list {
+    display: flex;
+    align-items: center;
+  }
+  .gallery__heading {
+    translate: -20px 0;
+  }
+  .hero__img {
+    width: 259px;
+    height: 355px;
+    translate: -60px 0;
+    object-fit: cover;
+  }
+  .gallery__list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .gallery__list .col {
+    width: 100%;
+  }
+}
